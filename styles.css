@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.app-header {
+    background-image: linear-gradient(#2a569c,#4287f5);
+    padding: 2em;
+    color: white;
+}
+
+.task-container {
+    background-color: #eee;
+    padding: 4em;
+    flex-grow: 1;
+}
+
+#empty-message {
+    text-align: center;
+}
+
+.task {
+    background-color: darkslategray;
+    padding: 1em;
+    color: white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.task > * {
+    margin: 0.5em 0;
+}
+
+.task-actions {
+    margin-right: 1em;
+    display: flex;
+}
+
+.task-actions button {
+    width: 24px;
+    height: 24px;
+    margin-left: 1em;
+}
+
+.task .task-title {
+    flex-grow: 1;
+}
+
+.task .remove-task {
+    color: red;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+}
+
+.completed {
+    opacity: 0.75;
+}
+
+.hide {
+    display: none !important;
+}
