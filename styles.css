@@ -26,10 +26,10 @@ body {
 }
 
 .task {
-    background-color: darkslategray;
+    background-color: #2a569c;
     padding: 1em;
     color: white;
-    border-radius: 1em;
+    border-radius: .25em;
     display: flex;
     align-items: center;
     margin-bottom: 1em;
